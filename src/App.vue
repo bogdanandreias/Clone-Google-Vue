@@ -1,16 +1,18 @@
 <template>
   <Header />
+  <Body />
 </template>
 
 <script>
 import Header from './components/Header';
-// import Header from './components/Header.vue';
+import Body from './components/Body';
 // import Header from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Body
   }
 }
 </script>
